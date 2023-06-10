@@ -8,6 +8,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: #D7DDFF;
+    background-image: linear-gradient(180deg, #d7ddff 0%, #646462 100%);
 }
 
 header{
@@ -107,4 +108,34 @@ main{
 .informacion{
     color: #495057;
     font-size: 18px;
+}
+
+footer{
+    display: flex;
+    text-transform: capitalize;
+    height: 75px;
+    background-image: linear-gradient(180deg #646462 100%);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lista-contacto{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+
+.lista-footer{
+    list-style: none;
+}
+
+.enlace-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.enlace-footer:hover{
+    color: #0A3871;
+    transition: 0.5s;
 }
