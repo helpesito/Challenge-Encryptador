@@ -8,4 +8,5 @@ const mensajeEncriptado = document.querySelector(".mensaje-encriptado");
 //La letra "u" es convertida para "ufat"
 
 let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"],["u", "ufat"]];
-console.table(matrizCodigo)
+console.table(matrizCodigo);
+
