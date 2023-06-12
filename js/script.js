@@ -45,6 +45,9 @@ function btnCopiar() {
     const mensajeEncriptado = document.querySelector(".mensaje-encriptado");
     mensajeEncriptado.select(); // Selecciona el texto del textarea
     document.execCommand("copy"); // Ejecuta el comando de copiado
-    alert("¡Texto copiado!"); // Muestra una alerta informando que el texto ha sido copiado
+    alert("¡Texto copiado!");
+    mensajeEncriptado.value = "";
+    mensajeEncriptado.style.backgroundImage = "url(../img/Muñeco.png)";
 }
+
 
