@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Css/style.css">
-    <link rel="stylesheet" href="/script.js">
     <title>Encriptador</title>
 </head>
 <body>
@@ -21,21 +20,21 @@
                 <h6 class="informacion">&#x24D8;Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="btn-encriptar">encriptar</button>
-                <button class="btn-desencriptar">desencriptar</button>
+                <button class="btn-encriptar" onclick="btnEncriptar()">encriptar</button>
+                <button class="btn-desencriptar" onclick="btndesencriptar()">desencriptar</button>
             </div>
         </section>
 
         <section id="men">
             <textarea class="mensaje-encriptado" placeholder="ningun mensaje ha sido encriptado"></textarea>
             <div>
-                <button class="btn-copiar">Copiar</button>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
             </div>
         </section>
     </main>
     <footer>
         <p>Hecho por heibert cordoba</p>
-        <div #="lista-c">
+        <div id="lista-c">
             <ul class="lista-contacto">
                 <img src="/img/LK.png" class="Imagenes-footer-l" alt="Logo-linkedin">
                 <li class="lista-footer"><a class="enlace-footer" href="https://www.linkedin.com/in/heibert-cordoba/" target="_blank" rel="noopener noreferrer">Linkedin aqui</a></li>
@@ -48,5 +47,6 @@
             </ul>    
 
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>
